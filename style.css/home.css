@@ -1,32 +1,6 @@
-*{
-   
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-    
-}
-
-:root{
-    --title-color:  #322153;
-    --prima-color: #34cb79;
-}
-
-body{
-    font-family: 'Roboto', sans-serif;
-    background: #ffffff;
-    -webkit-font-smoothimg: antialiased;
-
-}
-
-h1,h2,h3,h4{
-    font-family: 'Ubuntu', sans-serif;
-    color: var(--title-color);
-
-}
-
 #page-home{
 
-    background: url('./img/icones/home-background.svg')no-repeat;
+    background:url('../img/icones/home-background.svg')no-repeat;
     height: 100vh;
     background-position: 35vw 20vh ;
 }
@@ -62,7 +36,7 @@ h1,h2,h3,h4{
     display: flex;
     margin-right: 16px;
 
-    background-image: url(./img/icones/log-in.svg);
+    background-image: url(../img/icones/log-in.svg);
     width: 20px;
     height: 20px;
 
@@ -127,7 +101,7 @@ h1,h2,h3,h4{
 
     content: "";
 
-    background-image: url(./img/icones/search.svg);
+    background-image: url(../img/icones/search.svg);
     width: 20px;
     height: 20px;
 
@@ -139,34 +113,3 @@ h1,h2,h3,h4{
     text-align: center;
 
 }
-
-@media(max-width: 900px){
-
-    #page-home{
-
-        background-position: 70vw;
-    }
-
-    #page-home .content{
-
-        align-items: center;
-        text-align: center;
-    }
-
-    #page-home header  a {
-
-        position: absolute;
-        bottom: 40px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    #page-home main{
-
-        align-items: center;
-    }
-
-}
-
-
-

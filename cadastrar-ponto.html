@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÉColeta</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css/main.css">
+    <link rel="stylesheet" href="./style.css/casdastrar-pontos.css">
+    <link rel="stylesheet" href="./style.css/responsive.css">
+    
+</head>
+<body>
+
+
+   <div id="page-cadastrar-ponto">
+
+        
+
+            <header>
+
+              <img src="./img/icones/logo.svg" alt="">
+             
+
+                <a href="">
+                    <span> </span>
+                    Voltar para Home
+                </a>
+
+            </header>
+
+            <form action="">
+
+                <h1>Cadastro do ponto de coleta</h1>
+
+                <fieldset>
+                    <legend>
+                        <h2>Dados de entidade</h2>
+                    </legend>
+
+                    <div class="field">
+                        <label for="entidade"> Nome da entidade  </label>
+                        <input type="text" name="entidade">
+                    </div>
+
+                    <div class="field-group">
+
+                        <div class="field">
+                            <label for="endereço"> Endereço</label>
+                            <input type="text" name="endereço">
+                        </div>
+
+                        <div class="field">
+                        <label for="numero">  Numero/Complemento </label>
+                        <input type="text" name="numero"
+                        ></div>
+
+                    </div>
+
+                    <div class="field-group">
+
+                         <div class="field">
+                            <label for="state">  Estado </label>
+                            <select name="uf"  >
+                                <option value="">
+                                    Selecione o estado
+                                </option>
+                            </select>
+
+                            <input type="hidden" name="state">
+                          </div>
+
+                          <div class="field">
+                            <label for="city">  Cidade </label>
+                            <select name="city" disabled>
+                                <option value="">
+                                    Selecione a cidade
+                                </option>
+                            </select>
+                          </div>
+
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>
+                        <h2>Itens de coleta</h2>
+                    </legend>
+                </fieldset>
+
+                <button type="submit"> Cadastrar ponto de coleta</button>
+            </form>
+            
+    </div>
+
+    <script src="./scripts/cadastrar-posto.js"></script>
+</body>
+</html>
