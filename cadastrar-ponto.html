@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ÉColeta</title>
+    <title>Criar um ponto de coleta</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css/main.css">
-    <link rel="stylesheet" href="./style.css/casdastrar-pontos.css">
-    <link rel="stylesheet" href="./style.css/responsive.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/casdastrar-pontos.css">
+    <link rel="stylesheet" href="./style/responsive.css">
     
 </head>
 <body>
@@ -22,7 +22,7 @@
               <img src="./img/icones/logo.svg" alt="">
              
 
-                <a href="">
+                <a href="index.html">
                     <span> </span>
                     Voltar para Home
                 </a>
@@ -40,19 +40,19 @@
 
                     <div class="field">
                         <label for="entidade"> Nome da entidade  </label>
-                        <input type="text" name="entidade">
+                        <input type="text" name="entidade" required>
                     </div>
 
                     <div class="field-group">
 
                         <div class="field">
                             <label for="endereço"> Endereço</label>
-                            <input type="text" name="endereço">
+                            <input type="text" name="endereço" required>
                         </div>
 
                         <div class="field">
                         <label for="numero">  Numero/Complemento </label>
-                        <input type="text" name="numero"
+                        <input type="text" name="numero" required
                         ></div>
 
                     </div>
@@ -72,11 +72,12 @@
 
                           <div class="field">
                             <label for="city">  Cidade </label>
-                            <select name="city" disabled>
+                            <select name="city" disabled required>
                                 <option value="">
                                     Selecione a cidade
                                 </option>
                             </select>
+                          
                           </div>
 
                     </div>
@@ -87,6 +88,41 @@
                     <legend>
                         <h2>Itens de coleta</h2>
                     </legend>
+
+                    <div class="itens-grid">
+                        <li data-id="1" >
+                            <img src="./img/icones/lampadas.svg" alt="Lâmpadas">
+                            <span> Lâmpadas </span>
+                        </li>
+
+                        <li data-id="2">
+                            <img src="./img/icones/baterias.svg" alt="Pilhas e Baterias">
+                            <span> Pilhas e Baterias </span>
+                        </li>
+
+                        <li data-id="3">
+                            <img src="./img/icones/papeis-papelao.svg" alt="Papéis e Papelão">
+                            <span> Papeis e Papelão </span>
+                        </li>
+
+                        <li data-id="4">
+                            <img src="./img/icones/eletronicos.svg" alt="Resíduos Eletrônicos">
+                            <span> Resíduos Eletrônicos </span>
+                        </li>
+
+                        <li data-id="5">
+                            <img src="./img/icones/organicos.svg" alt="Resíduos  Orgânicos">
+                            <span> Resíduos Orgânicos </span>
+                        </li>
+
+                        <li data-id="6">
+                            <img src="./img/icones/oleo.svg" alt="Óleo de cozinha">
+                            <span> Óleo de cozinha </span>
+                        </li>
+
+                    </div>
+
+                        <input type="hidden" name="itens">
                 </fieldset>
 
                 <button type="submit"> Cadastrar ponto de coleta</button>
