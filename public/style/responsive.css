@@ -36,6 +36,27 @@
 
     }
 
+    #page-cadastrar-ponto .field-group{
+
+        flex-direction: column;
+    }
+
+    #page-cadastrar-ponto .field-group .field +  .field{
+
+        margin-left: 0;
+    }
+
+    .itens-grid{
+
+        grid-template-columns: 1fr;
+
+    }
+
+    form {
+
+        padding: 15px;
+    }
+
     main{
 
         margin: 40px;

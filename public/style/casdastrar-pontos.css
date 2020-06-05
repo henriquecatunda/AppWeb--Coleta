@@ -136,6 +136,21 @@ form button:hover{
 
 }
 
+fieldset legend {
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+fieldset legend span {
+
+    font-size: 14px;
+}
+
+
 .itens-grid li{
 
     background-color: #f5f5f5;
