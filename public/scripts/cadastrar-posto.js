@@ -1,4 +1,4 @@
-function populateUFs() {
+ function populateUFs() {
 
 
    const ufSelect =  document.querySelector("select[name=uf]")
