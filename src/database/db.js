@@ -89,7 +89,7 @@ const values = [
     })
     // Deletar um dado da tabela 0
 
-    /*db.run(`DELETE FROM places WHERE id = ?`, [2], function(err){
+      db.run(`DELETE FROM places WHERE id = ?`, [6], function(err){
         
         if(err){
             return console.log(err)
