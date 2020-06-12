@@ -1,12 +1,12 @@
-#Next Level Week - Rocketseat
+# Next Level Week - Rocketseat
 
-##O Projeto Ecoleta
+## O Projeto Ecoleta
 
 Na semana do meio ambiente, a idéia é de que seja uma plataforma onde uma empresa faz o cadastro com o intuito de coletar o tipo de material específico que seja do segmento da mesma, para assim contribuir com o descarte desse tipo de material.
 
-##Tecnologias utilizadas
+## Tecnologias utilizadas
 
-###Front-end
+### Front-end
 
  * HTML
 
@@ -14,7 +14,7 @@ Na semana do meio ambiente, a idéia é de que seja uma plataforma onde uma empr
 
  * Javascript
 
-###Back-end
+### Back-end
 
  * Node
 
