@@ -4,6 +4,8 @@
 
 Na semana do meio ambiente, a idéia é de que seja uma plataforma onde uma empresa faz o cadastro com o intuito de coletar o tipo de material específico que seja do segmento da mesma, para assim contribuir com o descarte desse tipo de material.
 
+![tela](https://github.com/henriquecatunda/AppWeb-EColeta/blob/master/ecoleta.jpg)
+
 ## Tecnologias utilizadas
 
 ### Front-end
